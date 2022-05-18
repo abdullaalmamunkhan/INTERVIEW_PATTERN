@@ -1,0 +1,16 @@
+﻿<Project Sdk="Microsoft.NET.Sdk">
+
+  <PropertyGroup>
+    <TargetFramework>net5.0</TargetFramework>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Web_DAL\Web_DAL.csproj" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <Folder Include="IBLL\" />
+    <Folder Include="BLL\" />
+  </ItemGroup>
+
+</Project>
